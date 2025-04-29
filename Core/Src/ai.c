@@ -7,7 +7,6 @@
 
 #include "ai.h"
 
-
 static uint32_t ai_seed;
 
 void init_ai_random(void) {
@@ -15,7 +14,7 @@ void init_ai_random(void) {
     srand(ai_seed);
 }
 
-uint8_t ai_get_move(uint8_t board[BOARD_ROWS][BOARD_COLS], uint8_t difficulty) {
+uint8_t ai_get_move(uint8_t board[BOARD_ROWS][BOARD_COLS]) {
     uint8_t available_cols[BOARD_COLS];
     uint8_t num_available = 0;
     

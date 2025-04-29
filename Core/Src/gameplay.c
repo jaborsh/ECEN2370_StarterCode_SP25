@@ -254,7 +254,6 @@ uint8_t process_touch_for_column(uint16_t touch_x) {
     return action_taken;
 }
 
-// Handle AI's turn
 void process_ai_turn(void) {
     if (game_state != GAME_ACTIVE || current_player != PLAYER_YELLOW) {
         return;

@@ -17,7 +17,9 @@
 #ifndef INC_APPLICATIONCODE_H_
 #define INC_APPLICATIONCODE_H_
 
+// Initialize the application.
 void ApplicationInit(void);
+// Begin the Connect4 game.
 void Connect4(void);
 
 #endif /* INC_APPLICATIONCODE_H_ */

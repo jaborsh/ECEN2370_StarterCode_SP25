@@ -139,6 +139,18 @@ I've grown to appreciate abstraction. With limited familiarity with the STM32 HA
 it the more I wanted to continue using it rather than approach things that had already been resolved
 with my own (likely worse) solutions.
 
+## If I were to restart...
+
+If I were to restart, I'd be more conscious about OOP as will be discussed in the improvements
+section. I'd also spend the entire five seconds necessary to understand the X/Y layout of the LCD
+screen instead of randomly changing greater-than and less-than symbols every time something wouldn't
+work the way I wanted. While it was unattempted credit, I think addressing the mathematical
+algorithm for a smarter AI would be an enjoyable challenge and would take precedence over the purely
+random mechanics. I'd also experiment with the gyro to see if I could get the extra-credit tilt
+mechanics to work properly.
+
+Many of my ideas surrounding a restart overlap with suggested improvements. So, without further ado:
+
 ## Improvements
 
 The project lacks OOP design. Code relies heavily on global variables. While mostly isolated in
